@@ -3,6 +3,7 @@ import os
 import tkinter as tk
 from tkinter import ttk
 from tkinter import * 
+from PIL import Image, ImageTk
 
 def getInputBoxValue():
 	cwd = os.getcwd()
