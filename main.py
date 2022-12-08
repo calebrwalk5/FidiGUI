@@ -10,11 +10,7 @@ def getInputBoxValue():
 	userInput = Prompt.get()
 	print(userInput)
 	os.system("python image-from-text.py --text=" + userInput)
-	loadImage = Image.open("generated.png")
-	render = ImageTk.PhotoImage(loadImage)
-	img = Label(self, image=render)
-	img.image = render
-	img.place(x=0, y=100)
+	os.system("start 'generated.png'")
 	return userInput
 
 def printInput():
