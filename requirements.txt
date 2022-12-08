@@ -1,0 +1,12 @@
+Pillow
+blobfile
+mypy
+numpy
+pytest
+requests
+torch
+torchvision
+pillow
+min_dalle
+argparse
+opencv-python
