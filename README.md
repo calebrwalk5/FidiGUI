@@ -1,4 +1,4 @@
-# Fidi-GUI
+# FidiGUI
 A DALL-E fork<br>
 ### How to use
 ### Samples
