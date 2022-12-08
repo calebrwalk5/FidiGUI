@@ -1,14 +1,14 @@
 # read the README!!!
+import os
 import tkinter as tk
 from tkinter import ttk
 from tkinter import * 
 
-def goFunction():
-	print(userInput)
-
 def getInputBoxValue():
+	cwd = os.getcwd()
 	userInput = Prompt.get()
 	print(userInput)
+	os.system("python image-from-text.py --text=" + userInput)
 	return userInput
 
 def printInput():
