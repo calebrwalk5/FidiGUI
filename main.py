@@ -30,3 +30,4 @@ Label(root, text='Prompt', bg='#FFFFFF', font=('arial', 12, 'normal')).place(x=5
 
 
 root.mainloop()
+# finally it's over i hate python
