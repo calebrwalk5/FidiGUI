@@ -10,4 +10,5 @@ Feel free to fork this repository for a pull request or open an issue :)<br>
 ### Thank you
 https://stackhowto.com/batch-file-to-get-input-from-user/<br>
 https://github.com/openai/DALL-E<br>
-https://stackoverflow.com/questions/36516887/access-is-denied-in-python
+https://stackoverflow.com/questions/36516887/access-is-denied-in-python<br>
+https://stackoverflow.com/questions/8863917/importerror-no-module-named-pil<br>
