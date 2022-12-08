@@ -10,7 +10,6 @@ def getInputBoxValue():
 	userInput = Prompt.get()
 	print(userInput)
 	os.system("python image-from-text.py --text=" + userInput)
-	os.system("start 'generated.png'")
 	return userInput
 
 def printInput():
