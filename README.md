@@ -2,7 +2,7 @@
 A DALL-E fork. Fidi generates images from text using AI. This is the graphical version of Fidi<br>
 ### How to use
 Run `INSTALL.bat`<br>
-Run `main.py` as **admin** and enter your options in the textbox<br>
+Run `RUN.bat` and enter your options in the textbox<br>
 ### Prerequisites
 You must be running a 64 bit machine with python 3.1 or higher installed<br>
 ### Contributing
