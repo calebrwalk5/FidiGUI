@@ -9,7 +9,7 @@ def getInputBoxValue():
 	cwd = os.getcwd()
 	userInput = Prompt.get()
 	print(userInput)
-	os.system("python image-from-text.py --text=" + userInput)
+	os.system('python image-from-text.py --text="' + userInput + '"')
 	return userInput
 
 def printInput():
