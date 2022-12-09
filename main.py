@@ -10,6 +10,9 @@ def getInputBoxValue():
 	userInput = Prompt.get()
 	print(userInput)
 	os.system('python image-from-text.py --text="' + userInput + '"')
+	img = ImageTk.PhotoImage(Image.open("generated.png"))
+	panel = Label(root, image = img)
+	panel.pack(side = "bottom", fill = "both", expand = "yes")
 	return userInput
 
 def printInput():
@@ -21,10 +24,6 @@ root = Tk()
 root.geometry('830x430')
 root.configure(background='#808080')
 root.title('FidiGUI')
-
-img = ImageTk.PhotoImage(Image.open("generated.png"))
-panel = Label(root, image = img)
-panel.pack(side = "bottom", fill = "both", expand = "yes")
 
 Button(root, text='GO', bg='#00FF00', font=('arial', 12, 'normal'), command=getInputBoxValue).place(x=7, y=1)
 
