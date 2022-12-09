@@ -19,7 +19,7 @@ def printInput():
 root = Tk()
 
 root.geometry('830x430')
-root.configure(background='#FFFFFF')
+root.configure(background='#808080')
 root.title('FidiGUI')
 
 Button(root, text='GO', bg='#00FF00', font=('arial', 12, 'normal'), command=getInputBoxValue).place(x=7, y=1)
