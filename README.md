@@ -1,6 +1,7 @@
 # FidiGUI beta 0.2.1
 A DALL-E fork. Fidi generates images from text using AI. This is the graphical version of Fidi<br>
 ### How to use
+FidiGUI requires Python 3.7 or higher. Python 3.11 and higher, however, is unstable<br>
 Run `INSTALL.bat`<br>
 Run `RUN.bat` and enter your options in the textbox<br>
 ### Prerequisites
