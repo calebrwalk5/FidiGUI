@@ -26,7 +26,7 @@ def showImage():
 root = Tk()
 
 root.geometry('830x430')
-root.configure(background='#808080')
+root.configure(background='#D3D3D3')
 root.title('FidiGUI')
 
 Button(root, text='GO', bg='#00FF00', font=('arial', 12, 'normal'), command=getInputBoxValue).place(x=7, y=1)
