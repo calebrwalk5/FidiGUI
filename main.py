@@ -5,16 +5,17 @@ from tkinter import ttk
 from tkinter import * 
 from PIL import Image, ImageTk
 
+def logWaitPlease():
+	print("Please be patient, this may take awhile...")
+	print("Please be patient, this may take awhile...")
+	print("Please be patient, this may take awhile...")
+
 def getInputBoxValue():
 	cwd = os.getcwd()
 	userInput = Prompt.get()
 	print(userInput)
 	os.system('python image-from-text.py --text="' + userInput + '"')
 	return userInput
-
-def printInput():
-    inp = inputtxt.get(1.0, "end-1c")
-    lbl.config(text = "Provided Input: "+userInput)
 
 def showImage():
 	path = "generated.png"
@@ -26,14 +27,16 @@ def showImage():
 root = Tk()
 
 root.geometry('830x430')
-root.configure(background='#D3D3D3')
-root.title('FidiGUI')
+root.configure(background='#2B2B2B')
+root.title('FidiGUI - Fidi Graphical Interface')
 
-Button(root, text='GO', bg='#00FF00', font=('arial', 12, 'normal'), command=getInputBoxValue).place(x=7, y=1)
+Button(root, text='GO', fg="white", bg='#111112', font=('arial', 12, 'normal'), command=getInputBoxValue).place(x=7, y=1)
 
-Button(root, text='show image', bg='#00FFFF', font=('arial', 12, 'normal'), command=showImage).place(x=7, y=30)
+Button(root, text='show image', fg="white", bg='#111112', font=('arial', 12, 'normal'), command=showImage).place(x=7, y=34)
 
-Prompt=Entry(root)
+Button(root, text='Generating an image may take awhile...', fg="white", bg='#041130', font=('arial', 12, 'normal'), command=logWaitPlease).place(x=110, y=34)
+
+Prompt=Entry(root, fg="white", bg="#111112", font=('arial', 16, 'normal'), width="28")
 Prompt.place(x=57, y=1)
 
 
