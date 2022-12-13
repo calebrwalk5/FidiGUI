@@ -1,4 +1,4 @@
 @echo off
 color 1f
-py main.py
+python3 main.py
 pause
