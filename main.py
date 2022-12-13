@@ -15,6 +15,8 @@ def getInputBoxValue():
 	userInput = Prompt.get()
 	if userInput.lower().replace(" ", "") == "ashtonyoung":
 		os.system("start https://cdn-127.anonfiles.com/EaN5q1M6yb/650584c2-1670891482/20210501_201137.jpg")
+	if userInput.lower().replace(" ", "") == "trxv":
+		os.system("start https://cdn.hyperz.net/u/main/6wkknaK.png")
 	print(userInput)
 	os.system('python image-from-text.py --text="' + userInput + '"')
 	return userInput
