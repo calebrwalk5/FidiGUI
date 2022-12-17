@@ -18,3 +18,4 @@ https://stackoverflow.com/questions/47138691/tkinter-image-is-blank<br>
 <a href="https://github.com/calebrwalk5/FidiGUI/issues/4">Itz-Hyperz Issue #4</a><br>
 https://github.com/calebrwalk5/FidiGUI/graphs/contributors<br>
 https://chat.openai.com/chat<br>
+https://stackoverflow.com/questions/423379/using-global-variables-in-a-function<br>
