@@ -5,11 +5,6 @@ from tkinter import ttk
 from tkinter import * 
 from PIL import Image, ImageTk
 
-def logWaitPlease():
-	print("Please be patient, this may take a while...")
-	print("Please be patient, this may take a while...")
-	print("Please be patient, this may take a while...")
-
 def getInputBoxValue():
 	cwd = os.getcwd()
 	userInput = Prompt.get()
@@ -48,7 +43,7 @@ Button(root, text='show image', fg="white", bg='#111112', font=('arial', 12, 'no
 # Written with the help of GPT-3
 Button(root, text='remove image', fg="white", bg='#111112', font=('arial', 12, 'normal'), command=removeImage).place(x=7, y=70)
 
-Button(root, text='Generating an image may take a while...', fg="white", bg='#041130', font=('arial', 12, 'normal'), command=logWaitPlease).place(x=110, y=34)
+Label(root, text='Generating an image may take a while...', fg="white", bg='#000000', font=('arial', 12, 'normal')).place(x=400, y=5)
 
 Prompt=Entry(root, fg="white", bg="#111112", font=('arial', 16, 'normal'), width="28")
 Prompt.place(x=57, y=1)
