@@ -22,11 +22,18 @@ def getInputBoxValue():
 	return userInput
 
 def showImage():
+	# Written with the help of GPT-3
+	global img, panel
+
 	path = "generated.png"
 	img = ImageTk.PhotoImage(Image.open(path))
 	panel = Label(root, image=img)
 	panel.photo = img
 	panel.pack(side = "bottom", expand = "yes")
+
+def removeImage():
+	global img, panel
+	panel.pack_forget()
 
 root = Tk()
 
@@ -37,6 +44,9 @@ root.title('FidiGUI - Fidi Graphical Interface')
 Button(root, text='GO', fg="white", bg='#111112', font=('arial', 12, 'normal'), command=getInputBoxValue).place(x=7, y=1)
 
 Button(root, text='show image', fg="white", bg='#111112', font=('arial', 12, 'normal'), command=showImage).place(x=7, y=34)
+
+# Written with the help of GPT-3
+Button(root, text='remove image', fg="white", bg='#111112', font=('arial', 12, 'normal'), command=removeImage).place(x=7, y=70)
 
 Button(root, text='Generating an image may take a while...', fg="white", bg='#041130', font=('arial', 12, 'normal'), command=logWaitPlease).place(x=110, y=34)
 

@@ -4,7 +4,7 @@ A DALL-E fork. Fidi generates images from text using AI. This is the graphical v
 Run `INSTALL.bat`<br>
 Run `RUN.bat` and enter your options in the textbox<br>
 ### Prerequisites
-FidiGUI requires Python 3.10<br>
+FidiGUI requires Python 3.7 or higher. Python 3.11 and higher, however, is unstable<br>
 You must be running 64-bit<br>
 ### Contributing
 Feel free to fork this repository for a pull request or open an issue :)<br>
@@ -17,6 +17,3 @@ https://stackoverflow.com/questions/10133856/how-to-add-an-image-in-tkinter<br>
 https://stackoverflow.com/questions/47138691/tkinter-image-is-blank<br>
 <a href="https://github.com/calebrwalk5/FidiGUI/issues/4">Itz-Hyperz Issue #4</a><br>
 https://github.com/calebrwalk5/FidiGUI/graphs/contributors<br>
-https://nvidia.github.io/cuda-python/install.html<br>
-https://stackoverflow.com/questions/33302779/python-tkinter-remove-delete-image-from-label<br>
-https://chat.openai.com/chat<br>
