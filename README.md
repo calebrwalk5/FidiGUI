@@ -17,3 +17,4 @@ https://stackoverflow.com/questions/10133856/how-to-add-an-image-in-tkinter<br>
 https://stackoverflow.com/questions/47138691/tkinter-image-is-blank<br>
 <a href="https://github.com/calebrwalk5/FidiGUI/issues/4">Itz-Hyperz Issue #4</a><br>
 https://github.com/calebrwalk5/FidiGUI/graphs/contributors<br>
+https://nvidia.github.io/cuda-python/install.html<br>
