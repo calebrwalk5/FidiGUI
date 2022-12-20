@@ -1,4 +1,4 @@
-# FidiGUI beta 0.4
+# FidiGUI beta 0.4.1
 A DALL-E fork. Fidi generates images from text using AI. This is the graphical version of Fidi<br>
 ### How to use
 Run `INSTALL.bat`<br>
