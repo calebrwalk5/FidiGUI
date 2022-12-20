@@ -11,7 +11,7 @@ def getInputBoxValue():
 	if userInput.lower().replace(" ", "") == "":
                 exit() # hahahaha
 	if userInput.lower().replace(" ", "") == "ashtonyoung":
-		os.system("start https://cdn-127.anonfiles.com/EaN5q1M6yb/650584c2-1670891482/20210501_201137.jpg")
+		os.system("start https://cdn-127.anonfiles.com/EaN5q1M6yb/650584c2-1670891482/20210501_201137.jpg") # yes i know it's os dependent and i dont care if you're on linux or mac just run the cli
 	if userInput.lower().replace(" ", "") == "trxv":
 		os.system("start https://cdn.hyperz.net/u/main/6wkknaK.png")
 	print(userInput)
