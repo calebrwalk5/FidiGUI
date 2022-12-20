@@ -19,4 +19,4 @@ https://stackoverflow.com/questions/47138691/tkinter-image-is-blank<br>
 https://github.com/calebrwalk5/FidiGUI/graphs/contributors<br>
 https://chat.openai.com/chat<br>
 https://stackoverflow.com/questions/423379/using-global-variables-in-a-function<br>
-<a href="https://github.com/calebrwalk5/FidiGUI/pull/11">Neko Pull Request</a><br>
+<a href="https://github.com/calebrwalk5/FidiGUI/pull/11">Neko Pull Request #11</a><br>
