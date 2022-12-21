@@ -1,5 +1,6 @@
-# FidiGUI beta 0.4.1
-A DALL-E fork. Fidi generates images from text using AI. This is the graphical version of <a href="https://github.com/calebrwalk5/fidi">fidi</a>, a DALL-E fork.<br>
+# FidiGUI beta 0.5
+FidiGUI generates images from text using AI.<br>
+This is the graphical version of <a href="https://github.com/calebrwalk5/fidi">fidi</a>, a DALL-E fork.<br>
 ### How to use
 Run `INSTALL.bat`<br>
 Run `main.py` and enter your options in the textbox<br>
