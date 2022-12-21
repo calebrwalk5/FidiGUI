@@ -5,7 +5,7 @@ Run `INSTALL.bat`<br>
 Run `main.py` and enter your options in the textbox<br>
 ### Prerequisites
 FidiGUI requires Python 3.7 or higher. Python 3.11 and higher, however, is unstable<br>
-You must be running 64-bit<br>
+You must be running 64-bit Windows<br>
 ### Contributing
 Feel free to fork this repository for a pull request or open an issue :)<br>
 ### Thank you
