@@ -10,3 +10,4 @@ pillow
 min_dalle
 argparse
 opencv-python
+psutil

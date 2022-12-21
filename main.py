@@ -1,6 +1,7 @@
 # read the README!!!
 import os
 import tkinter as tk
+import subprocess
 from tkinter import ttk
 from tkinter import * 
 from PIL import Image, ImageTk
@@ -32,6 +33,9 @@ def removeImage():
 	global img, panel
 	panel.pack_forget()
 
+def debug():
+        subprocess.call('python debug.py', shell=True)
+
 root = Tk()
 
 root.geometry('830x430')
@@ -40,10 +44,13 @@ root.title('FidiGUI - Fidi Graphical Interface')
 
 Button(root, text='GO', fg="white", bg='#111112', font=('arial', 12, 'normal'), command=getInputBoxValue).place(x=7, y=1)
 
-Button(root, text='show image', fg="white", bg='#111112', font=('arial', 12, 'normal'), command=showImage).place(x=7, y=34)
+Button(root, text='show image', fg="white", bg='#111112', font=('arial', 12, 'normal'), command=showImage).place(x=7, y=35)
 
-# Written with the help of GPT-3
+# witten with the help of GPT-3
 Button(root, text='remove image', fg="white", bg='#111112', font=('arial', 12, 'normal'), command=removeImage).place(x=7, y=70)
+
+# this one barely works, and i know
+Button(root, text='show stats [beta]', fg="white", bg='#111112', font=('arial', 12, 'normal'), command=debug).place(x=7, y=105)
 
 Label(root, text='Generating an image may take a while...', fg="white", bg='#000000', font=('arial', 12, 'normal')).place(x=400, y=5)
 
