@@ -2,7 +2,7 @@
 A DALL-E fork. <a href="https://github.com/calebrwalk5/fidi">Fidi</a> generates images from text using AI. This is the graphical version of <a href="https://github.com/calebrwalk5/fidi">Fidi</a><br>
 ### How to use
 Run `INSTALL.bat`<br>
-Run `RUN.bat` and enter your options in the textbox<br>
+Run `main.py` and enter your options in the textbox<br>
 ### Prerequisites
 FidiGUI requires Python 3.7 or higher. Python 3.11 and higher, however, is unstable<br>
 You must be running 64-bit<br>
