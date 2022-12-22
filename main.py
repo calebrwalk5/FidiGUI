@@ -32,7 +32,7 @@ def removeImage():
 	panel.pack_forget()
 
 def debug():
-        subprocess.call('python debug.py', shell=True)
+        subprocess.Popen(['python', 'debug.py'])
 
 root = Tk()
 
