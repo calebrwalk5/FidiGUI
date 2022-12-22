@@ -47,8 +47,7 @@ Button(root, text='show image', fg="white", bg='#111112', font=('arial', 12, 'no
 # witten with the help of GPT-3
 Button(root, text='remove image', fg="white", bg='#111112', font=('arial', 12, 'normal'), command=removeImage).place(x=7, y=70)
 
-# this one barely works, and i know
-Button(root, text='show stats [beta]', fg="white", bg='#111112', font=('arial', 12, 'normal'), command=debug).place(x=7, y=105)
+Button(root, text='show stats', fg="white", bg='#111112', font=('arial', 12, 'normal'), command=debug).place(x=7, y=105)
 
 Label(root, text='Generating an image may take a while...', fg="white", bg='#000000', font=('arial', 12, 'normal')).place(x=400, y=5)
 
