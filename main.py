@@ -7,17 +7,15 @@ from tkinter import *
 from PIL import Image, ImageTk
 
 def getInputBoxValue():
-	cwd = os.getcwd()
-	userInput = Prompt.get()
-	if userInput.lower().replace(" ", "") == "":
-                exit() # hahahaha
-	if userInput.lower().replace(" ", "") == "ashtonyoung":
-		os.system("start https://cdn-127.anonfiles.com/EaN5q1M6yb/650584c2-1670891482/20210501_201137.jpg") # yes i know it's os dependent and i dont care if you're on linux or mac just run the cli
-	if userInput.lower().replace(" ", "") == "trxv":
-		os.system("start https://cdn.hyperz.net/u/main/6wkknaK.png")
-	print(userInput)
-	os.system('python image-from-text.py --text="' + userInput + '"')
-	return userInput
+    userInput = Prompt.get()
+    if userInput.lower().replace(" ", "") == "":
+        exit()
+    if userInput.lower().replace(" ", "") == "ashtonyoung":
+        os.system("start https://cdn-127.anonfiles.com/EaN5q1M6yb/650584c2-1670891482/20210501_201137.jpg")
+    if userInput.lower().replace(" ", "") == "trxv":
+        os.system("start https://cdn.hyperz.net/u/main/6wkknaK.png")
+    print(userInput)
+    subprocess.Popen(['python', 'image-from-text.py', '--text=' + userInput])
 
 def showImage():
 	# Written with the help of GPT-3
