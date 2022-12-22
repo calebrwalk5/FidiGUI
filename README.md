@@ -8,7 +8,7 @@ FidiGUI requires Python 3.7 or higher. Python 3.11 and higher, however, is unsta
 You must be running 64-bit Windows<br>
 ### Contributing
 Feel free to fork this repository for a pull request or open an issue :)<br>
-## Example
+### Example
 <img src="https://cdn-114.anonfiles.com/afr8V7N9y7/e0947e2d-1671732122/version1.PNG" alt="FidiGUI"></img><br>
 ### Thank you
 https://github.com/openai/DALL-E<br>
